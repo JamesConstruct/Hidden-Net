@@ -1,18 +1,22 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+        <title>Leek tab - demo</title>
         <style>
             
         </style>
     </head>
     <body>
 
-    <h1>Hidden Net - demo</h1>
+    <h1>Leek tab - demo</h1>
 
-    <input type="text" id="search" /><button type="button" id="searchbtn" onclick="Search()">Search!</button>
+    <input type="text" id="search" /><button type="button" id="searchbtn" onclick="fieldSearch()">Search!</button>
     <br><br>
     <table id="demo"></table>
+    <iframe id="frame" width="1900" height="720" sandbox=""></iframe>
     
+    <script type="text/javascript" src="aes.js"></script>
     <script type="text/javascript" src="jsencrypt.min.js"></script>  
     <script type="text/javascript" src="browser.js"></script>
 
